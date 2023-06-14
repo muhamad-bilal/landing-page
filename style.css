@@ -109,6 +109,13 @@ ul{
     text-align: center;
     margin-top: 50px;
   }
+  .titleSmall{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    text-align: center;
+    
+  }
 
   .container {
     display: flex;
@@ -131,4 +138,67 @@ ul{
     margin-top: 25px;
   }
 
+  .tcon{
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 15px solid pink;
+    
+  }
+
+  .quote {
+    margin-bottom: 15px;
+  }
+
+  .quote cite {
+    
+    font-weight: 600;
+    font-style: italic;
+    color: #2F4F4F;
+    margin-top: 10px;
+  }
+
+  .box{
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    background: #FCA5A5;
+    width: 500px;
+    border-radius: 900px;
+    box-shadow: 2px 4px 16px pink;
+  }
   
+
+  .headerr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  
+  .textt {
+    margin-bottom: 16px;
+  }
+
+  .containerr{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .containbox{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+
+ 
