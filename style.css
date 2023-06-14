@@ -1,0 +1,134 @@
+*{
+    flex-wrap: wrap;
+}
+header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+.headlink {
+    
+    display: flex;
+    gap: 50px;
+    color: white;
+    padding: 8px;
+    
+}
+.headlink li {
+    padding: 8px;
+    display: flex;
+    align-items: center; }
+  
+.headlink li a {
+    border: solid pink;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+.imagelogo{
+    max-width: 300px;
+    max-height: 100px; 
+    width: auto;
+    height: auto;
+    padding: 8px;
+
+}
+
+.containerHead{
+    display: flex;
+    background-color: #1F2937;  
+    flex-direction: row; 
+    gap: 100px;
+    padding: 25px;
+
+}
+
+.textcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.texthead{
+    padding: 8px;
+    color: white;
+    font-size: 70px;
+    margin-bottom: -12px;
+}
+.textheadsmall{
+    padding: 8px;
+    color: white;
+    font-size: 45px;
+    max-width: 900px;
+
+}
+.smallertext{
+    padding: 8px;
+    color: white;
+    font-size: 30px;
+}
+
+.group{
+    max-width: 700px;
+    max-height: 500px;
+    padding: 8px;
+
+    
+    
+}
+
+
+.button {
+    display: flex;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FCA5A5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    max-width: 100px;
+    justify-content: space-around;
+  }
+/*--------------------------------------------*/
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+  }
+  
+  .info {
+    gap: 10px;
+    max-width: 200px;
+    
+  }
+
+  .glow-border {
+    border: 10px solid transparent;
+    box-shadow: 0 0 20px 5px #ff00ff; }
+
+  .text{
+    margin-top: 25px;
+  }
+
+  
